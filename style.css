@@ -18,6 +18,12 @@ a:hover {
     cursor: pointer;
 }
 
+:focus, a:focus, nav div ul li a:focus, div.portfolio-row a:focus {
+    background-color: gold;
+    border: 3px solid gold;
+
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -302,17 +308,46 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height:60px;
     margin: 0 5px 0 0;
     display: inline;
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    min-width: 40px;
+}
+/******logo*****/
+
+a.navbar-brand div.logo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+a.navbar-brand div.logopanthere {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center;
+    flex-wrap: wrap;
+}
+
+a.navbar-brand h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.col-sm-12.text-center p{
+    font-size:1em;
 }
 
 .nav-center .navbar-brand img {
     margin: 0;
+    
 }
 
 .navbar .nav {
@@ -333,10 +368,14 @@ a:hover {
 }
 
 .nav > li a:hover,
-.nav > li a:focus {
+ {
     background: transparent;
 }
-
+.nav > li a:focus
+{
+    background: gold;
+    
+}
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -717,7 +756,7 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
+    
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -962,7 +1001,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height: 30px;
         width: auto;
     }
     .nav-invert .navbar-header {
