@@ -320,7 +320,7 @@ a:hover {
 }
 /******logo*****/
 
-a.navbar-brand div.logo {
+.navbar-brand div.logo {
     display:flex;
     flex-direction: column;
     justify-content: center;
