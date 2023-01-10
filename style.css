@@ -1,3 +1,33 @@
+.margeTop {
+    margin-top:1rem;
+}
+    #talkbubble {
+        padding: 10px;
+        margin:auto;
+        width: 320px;
+        /*height: 120px;*/
+        background: white;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+      }
+      #talkbubble:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid white;
+        border-bottom: 13px solid transparent;
+      }
+
+.black {
+    color:black!important;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -292,7 +322,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 2.5rem;
 }
 
 .navbar {
@@ -335,6 +365,9 @@ a.navbar-brand div.logopanthere {
     justify-content: space-around;
     align-content:center;
     flex-wrap: wrap;
+}
+div.logopanthere img {
+    margin:auto;
 }
 a.navbar-brand div.logopanthere span {
     margin:auto;
@@ -548,6 +581,10 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+footer li a {
+    color:white!important;
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -720,7 +757,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.4rem;
 }
 
 .tight-width-whitespace {
@@ -732,6 +769,14 @@ p {
     font-size: 20px;
     font-family: "Open Sans";
 }
+
+.formTrapeze {
+    margin:auto;
+    padding:30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    border-radius: 200px / 50px;
+  }
 
 .cta-hero {
     margin-top: 22px;
@@ -796,7 +841,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -814,15 +859,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:  #c94a10;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #c94a10!important;
+    
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #c94a10;
     color: #FFFFFF!important;
 }
 
@@ -840,7 +886,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #c94a10!important;
 }
 
 .ltc-atomic-tangerine:hover {
