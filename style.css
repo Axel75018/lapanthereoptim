@@ -6,14 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-span.typoLogo {
-font-size: 0.4em;
-margin :0;
-}
 
-span.typoLogo.logoBaseline {
-    margin-top:-20px;
-} 
 
 
 a,
@@ -332,6 +325,7 @@ a.navbar-brand div.logo {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: 1rem;
 }
 
 
@@ -342,13 +336,14 @@ a.navbar-brand div.logopanthere {
     align-content:center;
     flex-wrap: wrap;
 }
-
-a.navbar-brand h2 {
-    text-align: center;
-    margin: auto;
-    font-size: 1.1rem;
-    font-weight: 900;
+a.navbar-brand div.logopanthere span {
+    margin:auto;
 }
+    
+span.typoLogo.logoBaseline {
+        margin-top:-1.5rem;
+    } 
+
 
 .col-sm-12.text-center p{
     font-size:1em;
@@ -376,7 +371,7 @@ a.navbar-brand h2 {
     text-align: inherit;
 }
 
-.nav > li a:hover,
+.nav > li a:hover
  {
     background: transparent;
 }
