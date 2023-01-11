@@ -1,5 +1,11 @@
+.centrer {
+    margin:auto;
+}
 
-
+footer div.centrer.white {
+    width:fit-content;
+    margin-top: 2em;
+}
 
 a .visually-hidden:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
