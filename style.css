@@ -1,4 +1,51 @@
 
+/***header****/ 
+header a:hover {
+    border-bottom: 1px solid #575757;
+}
+/******logo*****/
+
+.navbar-brand div.logo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+}
+
+
+a.navbar-brand div.logopanthere {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center;
+    flex-wrap: wrap;
+}
+div.logopanthere img {
+    margin:auto;
+}
+header span.typologo {
+    font-size: 1.8rem;
+}
+
+a.navbar-brand div.logopanthere span {
+    margin:auto;
+}
+    
+span.typoLogo.logoBaseline {
+        margin-top:-1.5rem;
+    } 
+
+/****fin header***/
+
+/*****footer*****/
+footer ul a:hover {
+    border-bottom: 1px solid white;
+}
+
+/*****fin footer*****/
+
+
 section#presentation h2 {
     width: fit-content;
     margin: auto;
@@ -377,34 +424,7 @@ a:hover {
 .navbar-brand img[src$=svg] {
     min-width: 40px;
 }
-/******logo*****/
 
-.navbar-brand div.logo {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-size: 1.3rem;
-}
-
-
-a.navbar-brand div.logopanthere {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content:center;
-    flex-wrap: wrap;
-}
-div.logopanthere img {
-    margin:auto;
-}
-a.navbar-brand div.logopanthere span {
-    margin:auto;
-}
-    
-span.typoLogo.logoBaseline {
-        margin-top:-1.5rem;
-    } 
 
 
 .col-sm-12.text-center p{
