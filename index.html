@@ -3,6 +3,14 @@
 
 <head>
 	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+	</style>
 	<link rel="canonical" href="http://lapanthere.com" />
 	<meta name="keywords" content="agence web, digital agency">
 	<meta name="description"
@@ -36,50 +44,50 @@
 	<div class="page-container">
 
 		<!-- bloc-0 -->
-		<header>
-			<div class="bloc bgc-white l-bloc " id="bloc-0">
-				<div class="container bloc-sm">
+		<header class="bloc bgc-white l-bloc " id="bloc-0">
+			<div class="container bloc-sm">
 
-					<nav class="navbar row">
-						<div class="navbar-header">
+				<nav class="navbar row">
+					<div class="navbar-header">
 
-							<a class="navbar-brand" href="index.html">
-								<div class="logo">
-									<div class="logopanthere"><img src="img/logo.png"
-											alt="Logo de l'Agence web la panthere votre digitale agency à Lyon" />
-										<span class="typoLogo">La Panthère</span>
-									</div>
-									<span class="typoLogo logoBaseline">Agence web basée à Lyon</span>
+						<a class="navbar-brand" href="index.html">
+							<div class="logo">
+								<div class="logopanthere"><img src="img/logo.png"
+										alt="Logo de l'Agence web la panthere" />
+									<span class="typoLogo fontRoboto">La Panthère</span>
 								</div>
+								<span class="typoLogo logoBaseline">Agence web basée à Lyon</span>
+							</div>
 
-							</a>
+						</a>
 
-							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
-								data-toggle="collapse" data-target=".navbar-1">
-								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
-									class="icon-bar"></span><span class="icon-bar"></span>
-							</button>
-						</div>
-						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-							<ul class="site-navigation nav navbar-nav">
-								<li>
-									<a href="index.html">Accueil</a>
-								</li>
-								<li>
-								</li>
-								<li>
-									<a href="page2.html">Contacter la Panthère</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
-				</div>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
+							data-toggle="collapse" data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+								class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a href="index.html">Accueil</a>
+							</li>
+							<li>
+							</li>
+							<li>
+								<a href="page2.html">Contacter la Panthère</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
 		</header>
+
 		<!-- bloc-0 END -->
 		<main>
 			<!-- bloc-1-presentation -->
-			<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
+			<section id="presentation"
+				class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
 				id="bloc-1-hero">
 				<div class="container bloc-lg">
 					<div class="row tight-width-whitespace">
@@ -88,10 +96,11 @@
 								alt=" logo de la Panthère, agence web lyon" />
 							<div class="formTrapeze">
 								<h1 class="text-center hero-bloc-text tc-white ">
-									Agile en digital<br><br><i class="black">La Panthère, <br>Agence web basée à
-										Lyon</i>
+									Agile en Webdesign<br><i class="black"><span class="fontRoboto">La Panthère</span>									
 
 								</h1>
+								<h2>Agence web basée à
+									Lyon</h2>
 								<div class="text-center">
 									<a href="page2.html"
 										class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine">Contactez-nous
@@ -101,22 +110,23 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 			<!-- bloc-1-presentation END -->
 
 			<!-- bloc-2-services -->
-			<div class="bloc bgc-white l-bloc" id="bloc-2-services">
+			<section id="services" class="bloc bgc-white l-bloc" id="bloc-2-services">
 				<div class="container bloc-md">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2> La panthère est une <b>digital agency</b> qui aide les entreprises à créer de <b>sites
+							<h2> La panthère est une <b>digital agency</b> qui aide les entreprises à créer des <b>sites
 									webs et mobiles</b> pour rendre les entreprises attractives et visibles sur
-								<b>internet</b></h2>
+								<b>internet</b>
+							</h2>
 
 						</div>
 					</div>
 					<div class="row voffset-lg med-width-whitespace">
-						<div class="col-sm-4">
+						<article class="col-sm-4">
 							<div class="text-center">
 								<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 							</div>
@@ -131,8 +141,8 @@
 								optimale sur votre site web. Faites confiance à notre expertise pour donner une nouvelle
 								vie à votre <b>site web</b> ou pour le créer de toute pièce.
 							</p>
-						</div>
-						<div class="col-sm-4">
+						</article>
+						<article class="col-sm-4">
 							<div class="text-center">
 								<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 							</div>
@@ -145,12 +155,12 @@
 								<b>design</b> possible pour votre <b>communication sur Internet</b>. Plutôt que de
 								simplement suivre les tendances du moment, nous travaillons avec vous pour créer une
 								<b>stratégie de communication</b> qui s'aligne sur vos objectifs à long terme.
-								Contactez-nous pour bénéfcier de notre expertise pour vous aider à atteindre le succès
+								Contactez-nous pour bénéficier de notre expertise pour vous aider à atteindre le succès
 								en ligne.
 								<br>
 							</p>
-						</div>
-						<div class="col-sm-4">
+						</article>
+						<article class="col-sm-4">
 							<div class="text-center">
 								<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 							</div>
@@ -166,9 +176,9 @@
 								offrir le meilleur résultat possible. Faites appel à notre savoir-faire pour créer un
 								<b>site web élégant et professionnel</b>.
 							</p>
-						</div>
+						</article>
 					</div>
-					<div class="row voffset-lg voffset">
+					<article class="row voffset-lg voffset">
 						<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
 							<h2><em>L'agence la Panthère est une excellente agence web ! les web designers ont réeussi à
 									capturer l'essence de notre entreprise et à l'intégrer à notre site.
@@ -177,22 +187,23 @@
 
 
 						</div>
-					</div>
+					</article>
 				</div>
-			</div>
+			</section>
 			<!-- bloc-2-services END -->
 
 			<!-- bloc-3-what-i-do -->
-			<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax"
+			<section id="what-i-do"
+				class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax"
 				id="bloc-3-what-i-do">
 				<div class="container bloc-lg">
 					<div class="row tight-width-whitespace black-background">
 						<div class="col-sm-12">
 							<h2 class="mg-md text-center tc-white">
 								<b>
-								La Panthère agence web basée à Lyon souhaite aider les entreprises de la région
-								Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les
-								entreprises locales à attirer de nouveaux clients.</b>
+									La Panthère agence web basée à Lyon souhaite aider les entreprises de la région
+									Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les
+									entreprises locales à attirer de nouveaux clients.</b>
 							</h2>
 							<p class="text-center black">
 								Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale,
@@ -210,11 +221,11 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 			<!-- bloc-3-what-i-do END -->
 
 			<!-- bloc-4-portfolio -->
-			<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+			<section id="portfolio" class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-12 text-center">
@@ -222,11 +233,10 @@
 						</div>
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
-						<div class="col-sm-6">
+						<article class="col-sm-6">
 							<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1"
 								data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img
-									src="img/1.jpg"
-									alt="Piles de magazines illustrant la refonte d'un journal lyonnais"
+									src="img/1.jpg" alt="Piles de magazines illustrant la refonte d'un journal lyonnais"
 									class="img-responsive portfolio-thumb" /></a>
 							<h3 class="mg-md text-center">
 								Refonte d'un site web pour un journal local
@@ -236,12 +246,12 @@
 								Création d'une <b>charte graphique</b>, mise en place d'un <b>CMS</b>.
 
 							</p>
-						</div>
-						<div class="col-sm-6">
+						</article>
+						<article class="col-sm-6">
 							<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1"
 								data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img
 									src="img/2.jpg" class="img-responsive portfolio-thumb"
-									alt="visuel d'une photographe prenant une photo avec un trépied pour illustrer la création d'un site web pour photographes" /></a>
+									alt="Photographe avec un trépied pour illustrer la création d'un site web pour photographes" /></a>
 							<h3 class="mg-md text-center">
 								Création d'un site web pour photographes
 							</h3>
@@ -249,10 +259,10 @@
 								Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes et
 								partager leur <b>book photo</b>.
 							</p>
-						</div>
+						</article>
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
-						<div class="col-sm-6">
+						<article class="col-sm-6">
 							<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1"
 								data-caption="Création d'un site internet pour un voyageur"
 								data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb"
@@ -264,8 +274,8 @@
 								Nous avons élaboré un <b>site internet</b> et des <b>illustrations</b> pour sublimer les
 								vidéos et les articles de ce voyageur.
 							</p>
-						</div>
-						<div class="col-sm-6">
+						</article>
+						<article class="col-sm-6">
 							<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1"
 								data-caption="Conception d'un site pour une agence de mariage"
 								data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb"
@@ -277,14 +287,15 @@
 								Nous avons travaillé avec cette agence pour créer un <b>site internet</b> permettant la
 								présentation détaillée de leurs prestations.
 							</p>
-						</div>
+						</article>
 					</div>
 				</div>
-			</div>
+			</section>
 			<!-- bloc-4-portfolio END -->
 
 			<!-- bloc-5-cta -->
-			<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+			<section id="cta" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper"
+				id="bloc-5-cta">
 				<div class="container bloc-lg">
 					<div class="row">
 						<div id="talkbubble">
@@ -293,74 +304,76 @@
 							</h2>
 						</div>
 						<div class="col-sm-12 text-center">
-							<a href="page2.html"
-								class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Oui ! Je contacte la panthére
+							<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Oui !
+								Je contacte la panthére
 							</a>
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</main>
-			<!-- bloc-5-cta END -->
+		<!-- bloc-5-cta END -->
 
-			<!-- Footer - bloc-8 -->
-			<footer>
-				<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-					<div class="container bloc-sm">
-						<div class="row">
-							<div class="col-sm-12">
-								<p class="text-center white">
-									La Panthère - Agence web basée à Lyon.<br>
-								</p>
-								<div class="row row-no-gutters social">
-									<div class="col-sm-3">
-										<div class="text-center">
-											<a class="social" href="https://twitter.com/"><span aria-hidden="true"
-													title="twitter" class="fa fa-twitter icon-md"><span
-													class="visually-hidden">twitter</span></span></a>
-										</div>
+		<!-- Footer - bloc-8 -->
+		<footer>
+			<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+				<div class="container bloc-sm">
+					<div class="row">
+						<div class="col-sm-12">
+							<p class="text-center white">
+								La Panthère - Agence web basée à Lyon.<br>
+							</p>
+							<div class="row row-no-gutters social">
+								<div class="col-sm-3">
+									<div class="text-center">
+										<a title="twitter" class="social" href="https://twitter.com/"><span
+												aria-hidden="true" class="fa fa-twitter icon-md"><span
+													class="visually-hidden">Suivez-nous sur twitter</span></span></a>
 									</div>
-									<div class="col-sm-3">
-										<div class="text-center">
-											<a class="social" href="https://www.facebook.com/"><span title="facebook"
+								</div>
+								<div class="col-sm-3">
+									<div class="text-center">
+										<a title="facebook" class="social" href="https://www.facebook.com/"><span
 												aria-hidden="true" class="fa fa-facebook icon-md"></span><span
-												class="visually-hidden">Facebook</span></a>
-										</div>
+												class="visually-hidden">Suivez-nous sur Facebook</span></a>
 									</div>
-									<div class="col-sm-3">
-										<div class="text-center">
-											<a class="social" href="https://dribbble.com/"><span title="dribble"
-													aria-hidden="true" class="fa fa-dribbble icon-md"></span><span
-													class="visually-hidden">Dribble</span></a>
-										</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="text-center">
+										<a title="dribble" class="social" href="https://dribbble.com/"><span
+												aria-hidden="true" class="fa fa-dribbble icon-md"></span><span
+												class="visually-hidden">Suivez-nous sur Dribble</span></a>
 									</div>
-									<div class="col-sm-3">
-										<div class="text-center">
-											<a class="social" href="https://www.instagram.com/"><span title="instagram"
-													aria-hidden="true" class="fa fa-instagram icon-md"></span><span
-													class="visually-hidden">Instagram</span></a>
-										</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="text-center">
+										<a title="instagram" class="social" href="https://www.instagram.com/"><span
+												aria-hidden="true" class="fa fa-instagram icon-md"></span><span
+												class="visually-hidden">Suivez-nous sur Instagram</span></a>
 									</div>
+								</div>
 
-								
-								
-									
-								
+
+
+
+
 							</div>
 							<div class="centrer white">
 								Partenaires :
 								<ul>
 									<li><a title="" href="voiture.com">voiture.com notre partnaire automobile</a></li>
 									<li><a href="pizza.com">pizza.com notre restaurateur préféré pour coder</a></li>
-									<li><a href="matoiture.com">matoiture.com parcequ on a tous besoin d'un toit même les graphistes</a></li>
-									<li><a href="immobilierseo.com">immobilierseo.com notre expert pour tout ce qui est SEO</a></li>
+									<li><a href="matoiture.com">matoiture.com parcequ on a tous besoin d'un toit même
+											les graphistes</a></li>
+									<li><a href="immobilierseo.com">immobilierseo.com notre expert pour tout ce qui est
+											SEO</a></li>
 								</ul>
 							</div>
 
 						</div>
 					</div>
 				</div>
-		
+
 		</footer>
 		<!-- Footer - bloc-8 END -->
 

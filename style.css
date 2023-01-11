@@ -1,4 +1,16 @@
 
+section#presentation h2 {
+    width: fit-content;
+    margin: auto;
+    
+}
+
+.fontRoboto {
+    font-family: 'Kaushan Script', cursive;
+}
+h1 span.fontRoboto {
+    font-size: 7rem;
+}
 
 .centrer {
     margin:auto;
@@ -372,7 +384,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 
