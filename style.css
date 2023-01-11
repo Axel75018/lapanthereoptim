@@ -11,8 +11,7 @@ a .visually-hidden:not(:focus):not(:active) {
  #talkbubble {
         padding: 10px;
         margin:auto;
-        width: 320px;
-        /*height: 120px;*/
+        width: 320px;      
         background: white;
         position: relative;
         -moz-border-radius: 10px;
@@ -362,7 +361,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 
@@ -848,7 +847,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
     padding: 40px 40px 40px 40px;
 }
 
