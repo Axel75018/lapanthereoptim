@@ -1,3 +1,6 @@
+
+
+
 a .visually-hidden:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -57,8 +60,8 @@ a:hover {
 }
 
 :focus, a:focus, nav div ul li a:focus, div.portfolio-row a:focus {
-    background-color: gold;
-    border: 3px solid gold;
+    
+    border: 2px solid gold;
 
 }
 
@@ -416,7 +419,7 @@ span.typoLogo.logoBaseline {
 }
 .nav > li a:focus
 {
-    background: gold;
+    border: 2px solid gold;
     
 }
 .navbar-toggle {
@@ -835,6 +838,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width:100%;
 }
 
 .portfolio-row {
@@ -917,7 +921,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -943,13 +947,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -968,8 +972,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -979,8 +983,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
     }
 }
 
