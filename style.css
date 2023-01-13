@@ -46,7 +46,7 @@ footer ul a:hover {
 /*****fin footer*****/
 
 
-section#presentation h2 {
+section#bloc-1-hero h2 {
     width: fit-content;
     margin: auto;
     
@@ -745,7 +745,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.9;
 }
 
 .next-lightbox {
@@ -756,6 +756,9 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
     left: 25px;
+}
+.fa-chevron-right, .fa-chevron-left {
+    color:white;
 }
 
 .snapshot-lb .modal-body {
