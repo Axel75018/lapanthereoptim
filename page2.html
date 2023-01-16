@@ -28,6 +28,8 @@
 		<script src="./js/blocs.js"></script>
 		<script src="./js/jquery.touchSwipe.js" defer></script>
 		<script src="./js/gmaps.js"></script>
+		<script src="./js/formHandler.js"></script>
+		<script src="./js/jqBootstrapValidation.js"></script>
 	
 		<title>La Panthère agence web basée à Lyon</title>
 	
@@ -49,7 +51,7 @@
 					<nav  class="navbar row">
 						<div class="navbar-header">
 	
-							<a class="navbar-brand" href="index.html">
+							<a aria-label="home du site la Panthere" class="navbar-brand" href="index.html">
 								<div class="logo">
 									<div class="logopanthere"><img src="img/logo.png"
 											alt="Logo La panthere" />
@@ -62,6 +64,7 @@
 	
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 								data-toggle="collapse" data-target=".navbar-1">
+								<span class="menu">Menu</span>
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
 									class="icon-bar"></span><span class="icon-bar"></span>
 							</button>
@@ -69,10 +72,10 @@
 						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 							<ul role="menu" class="site-navigation nav navbar-nav">
 								<li>
-									<a role="menuitem"  href="index.html">Accueil</a>
+									<a aria-label="home du site la Panthere" role="menuitem"  href="index.html">Accueil</a>
 								</li>							
 								<li>
-									<a role="menuitem"  href="page2.html">Contacter la Panthère</a>
+									<a aria-label="Contacter l'agence web la Panthère" role="menuitem"  href="page2.html">Contacter la Panthère</a>
 								</li>
 							</ul>
 						</div>
@@ -104,7 +107,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Votre message est parti." fail-msg="Hu notre serveur mail ne réponds plus. Votre message n'est pas parti. Réessayer plus tard.">
+				<form id="form_1" novalidate success-msg="Votre message est parti." fail-msg="Hum notre serveur mail ne réponds plus. Votre message n'est pas parti. Réessayer plus tard.">
 					<div class="form-group">
 						<label>
 							Nom
@@ -121,7 +124,7 @@
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" placeholder="Publicité, presse, amis, famille ?" required id="input_504" />
+						<input class="form-control"  placeholder="Publicité, presse, amis, famille ?" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
@@ -156,52 +159,48 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<p class="text-center white">
-						La Panthère - Agence web basée à Lyon.<br>
+						<b>La Panthère - Agence web basée à Lyon.</b>
 					</p>
-					<div class="row row-no-gutters social">
+					<div aria-label="Réseaux sociaux" class="row row-no-gutters social">
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="https://twitter.com/"><span aria-hidden="true"
-										title="twitter" class="fa fa-twitter icon-md"><span
-										class="visually-hidden">twitter</span></span></a>
+								<a aria-label="Suivez-nous sur twitter" title="twitter" class="social" href="https://twitter.com/"><span
+										aria-hidden="true" class="fa fa-twitter icon-md"><span
+											class="visually-hidden">Suivez-nous sur twitter</span></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="https://www.facebook.com/"><span title="facebook"
-									aria-hidden="true" class="fa fa-facebook icon-md"></span><span
-									class="visually-hidden">Facebook</span></a>
+								<a  aria-label="Suivez-nous sur Facebook"title="facebook" class="social" href="https://www.facebook.com/"><span
+										aria-hidden="true" class="fa fa-facebook icon-md"><span
+										class="visually-hidden">Suivez-nous sur Facebook</span></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="https://dribbble.com/"><span title="dribble"
-										aria-hidden="true" class="fa fa-dribbble icon-md"></span><span
-										class="visually-hidden">Dribble</span></a>
+								<a aria-label="Suivez-nous sur Dribble" title="dribble" class="social" href="https://dribbble.com/"><span
+										aria-hidden="true" class="fa fa-dribbble icon-md"><span
+										class="visually-hidden">Suivez-nous sur Dribble</span></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="https://www.instagram.com/"><span title="instagram"
-										aria-hidden="true" class="fa fa-instagram icon-md"></span><span
-										class="visually-hidden">Instagram</span></a>
+								<a aria-label="Suivez-nous sur Instagram" title="instagram" class="social" href="https://www.instagram.com/"><span
+										aria-hidden="true" class="fa fa-instagram icon-md"><span
+										class="visually-hidden">Suivez-nous sur Instagram</span></span></a>
 							</div>
 						</div>
 
-					
+
+
+
+
+					</div>
 					
 						
 					
 				</div>
-				<div class="centrer white">
-					Partenaires :
-					<ul>
-						<li><a title="" href="voiture.com">voiture.com notre partnaire automobile</a></li>
-						<li><a href="pizza.com">pizza.com notre restaurateur préféré pour coder</a></li>
-						<li><a href="matoiture.com">matoiture.com parcequ on a tous besoin d'un toit même les graphistes</a></li>
-						<li><a href="immobilierseo.com">immobilierseo.com notre expert pour tout ce qui est SEO</a></li>
-					</ul>
-				</div>
+				
 
 			</div>
 		</div>

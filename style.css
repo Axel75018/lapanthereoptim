@@ -42,6 +42,11 @@ span.typoLogo.logoBaseline {
     } 
 
 /****fin header***/
+/*******hamburger Menu*****/
+button#nav-toggle span.menu {
+    font-weight: 900;
+    color:black;
+}
 
 /*****footer*****/
 footer ul a:hover {
@@ -1109,7 +1114,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 30px;
+        max-height: 45px;
         width: auto;
     }
     .nav-invert .navbar-header {
