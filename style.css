@@ -15,7 +15,7 @@ header a:hover {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 
 
@@ -27,10 +27,8 @@ a.navbar-brand div.logopanthere {
     flex-wrap: wrap;
 }
 div.logopanthere img {
+    height:40px;
     margin:auto;
-}
-header span.typologo {
-    font-size: 1.8rem;
 }
 
 a.navbar-brand div.logopanthere span {
@@ -39,6 +37,7 @@ a.navbar-brand div.logopanthere span {
     
 span.typoLogo.logoBaseline {
         margin-top:-1.5rem;
+        font-size: 1.2rem;
     } 
 
 /****fin header***/
@@ -47,6 +46,30 @@ button#nav-toggle span.menu {
     font-weight: 900;
     color:black;
 }
+
+/*******fin hamburger Menu*****/
+
+/*******section présentation******/
+
+.fondPanthere {
+    margin:0 auto 10px auto;
+    padding:20px;
+    background-color: rgba(255, 255, 255, 1);    
+    border-radius: 30px / 60px ;
+    width:fit-content;
+  }
+
+.fondPanthere img {
+    width:160px;
+}
+
+.formTrapeze {
+    margin:auto;
+    padding:30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    border-radius: 200px / 50px;
+  }
 
 /*****footer*****/
 footer ul a:hover {
@@ -832,13 +855,7 @@ p {
     font-family: "Open Sans";
 }
 
-.formTrapeze {
-    margin:auto;
-    padding:30px;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 100%;
-    border-radius: 200px / 50px;
-  }
+
 
 .cta-hero {
     margin-top: 22px;
@@ -970,11 +987,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
