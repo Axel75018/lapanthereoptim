@@ -4,6 +4,7 @@
 
 
 /***header****/ 
+header {height:100p;}
 header a:hover {
     border-bottom: 1px solid #575757;
 }
