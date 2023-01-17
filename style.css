@@ -2,6 +2,14 @@
     text-align:justify;
 }
 
+footer div.col-sm-12 p.adresse {
+    text-align: center;
+    color: white!important;
+}
+
+p.adresse a {
+    color:rgba(255, 255, 255, .6)!important;
+}
 
 /***header****/ 
 header {height:100p;}
