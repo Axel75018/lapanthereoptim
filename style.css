@@ -13,14 +13,14 @@ section#bloc-3-what-i-do h2 {
 
 
 
-footer div.col-sm-12 p.adresse {
+footer div.col-sm-12 p.adresse, footer div.col-sm-12 p.adresse a {
     text-align: center;
     color: white!important;
 }
 
-p.adresse a {
+/*p.adresse a {
     color:rgba(255, 255, 255, .6)!important;
-}
+}*/
 
 /***header****/ 
 /*header.bloc {height:fit-content;
@@ -262,7 +262,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
