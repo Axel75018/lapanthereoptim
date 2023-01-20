@@ -29,9 +29,10 @@ top:0;
 z-index:2;
 margin-top:-50px;
 }
+*/
 header a:hover {
     border-bottom: 1px solid #575757;
-}*/
+}
 /******logo*****/
 
 .navbar-brand div.logo {
@@ -52,6 +53,7 @@ a.navbar-brand div.logopanthere {
 }
 div.logopanthere img {
     height:40px;
+    width:40px;
     margin:auto;
 }
 
@@ -85,6 +87,7 @@ button#nav-toggle span.menu {
 
 .fondPanthere img {
     width:160px;
+    height:130px;
 }
 
 .formTrapeze {
@@ -96,9 +99,10 @@ button#nav-toggle span.menu {
   }
 
 /*****footer*****/
-footer ul a:hover {
+footer p.adresse a:hover {
     border-bottom: 1px solid white;
 }
+
 
 /*****fin footer*****/
 
@@ -183,7 +187,7 @@ a:hover {
 
 :focus, a:focus, nav div ul li a:focus, div.portfolio-row a:focus {
     
-    border: 2px solid gold;
+    border-bottom: 4px solid gold;
 
 }
 
@@ -514,7 +518,7 @@ a:hover {
 }
 .nav > li a:focus
 {
-    border: 2px solid gold;
+    border-bottom: 4px solid gold;
     
 }
 .navbar-toggle {
