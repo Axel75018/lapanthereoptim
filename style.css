@@ -1,6 +1,17 @@
+
+
+
+section#bloc-3-what-i-do h2 {
+    text-shadow: 0px 0px 6px #FFFFFF;
+    line-height: normal;
+}
+
+
 .text-justify {
     text-align:justify;
 }
+
+
 
 footer div.col-sm-12 p.adresse {
     text-align: center;
@@ -12,10 +23,15 @@ p.adresse a {
 }
 
 /***header****/ 
-header {height:100p;}
+/*header.bloc {height:fit-content;
+position:sticky;
+top:0;
+z-index:2;
+margin-top:-50px;
+}
 header a:hover {
     border-bottom: 1px solid #575757;
-}
+}*/
 /******logo*****/
 
 .navbar-brand div.logo {
