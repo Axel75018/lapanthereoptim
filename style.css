@@ -18,18 +18,6 @@ footer div.col-sm-12 p.adresse, footer div.col-sm-12 p.adresse a {
     color: white!important;
 }
 
-/*p.adresse a {
-    color:rgba(255, 255, 255, .6)!important;
-}*/
-
-/***header****/ 
-/*header.bloc {height:fit-content;
-position:sticky;
-top:0;
-z-index:2;
-margin-top:-50px;
-}
-*/
 header a:hover {
     border-bottom: 1px solid #575757;
 }
